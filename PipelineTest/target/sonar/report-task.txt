@@ -1,0 +1,7 @@
+organization=syctonu-github
+projectKey=SYctonu_pipelineCI
+serverUrl=https://sonarcloud.io
+serverVersion=7.5.0.19741
+dashboardUrl=https://sonarcloud.io/dashboard?id=SYctonu_pipelineCI
+ceTaskId=AWeE_YtH9F5tYFz-WFFG
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWeE_YtH9F5tYFz-WFFG

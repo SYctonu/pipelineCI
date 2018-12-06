@@ -17,12 +17,12 @@ public class PipeTestServ extends HttpServlet {
      */
     public PipeTestServ() {
         super();
-        // TODO Auto-generated constructor stub
     }
 
 	/**
 	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
 	 */
+    @Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		response.getWriter().print("Pipeline Test Succeeded!");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
