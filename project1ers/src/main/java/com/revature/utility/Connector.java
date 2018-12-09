@@ -17,9 +17,9 @@ public class Connector {
         	cLogger.error(e.getMessage());
             e.printStackTrace();
         }
-		String url = "jdbc:oracle:thin:@sy-revature.cugxe1ca0ol9.us-east-2.rds.amazonaws.com:1521:ORCL"; 
-		String user = "sy18"; 
-		String pass = "Databaser14";
+		String url = "jdbc:oracle:thin:@[ENDPOINT]:1521:ORCL"; 
+		String user = USERNAME; 
+		String pass = PASSWORD;
 		
 		return DriverManager.getConnection(url, user, pass); // establish connection
 	}
