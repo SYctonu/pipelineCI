@@ -20,7 +20,7 @@ public class Connector {
 		String url = "jdbc:oracle:thin:@[ENDPOINT]:1521:ORCL"; 
 		String user = USERNAME; 
 		String pass = PASSWORD;
-		
+		// enter these locally
 		return DriverManager.getConnection(url, user, pass); // establish connection
 	}
 	
